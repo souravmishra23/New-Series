@@ -33,13 +33,14 @@ public class FindMinPathInGrid {
         visited[x][y] = true;
         int right = minPathBrute(grid, x, y + 1, visited);
         int down = minPathBrute(grid, x + 1, y, visited);
-        int left = minPathBrute(grid, x, y - 1, visited);
-        int up = minPathBrute(grid, x - 1, y, visited);
+//        int left = minPathBrute(grid, x, y - 1, visited);
+//        int up = minPathBrute(grid, x - 1, y, visited);
         // Unmark for other paths (backtracking)
         visited[x][y] = false;
 
         // Find minimum of all directions
-        int min = Math.min(Math.min(right, down), Math.min(left, up));
+        //int min = Math.min(Math.min(right, down), Math.min(left, up));
+        int min = (Math.min(right, down));
 
         return grid[x][y] + (min == Integer.MAX_VALUE ? 0 : min);
     }
