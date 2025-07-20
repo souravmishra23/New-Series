@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe14c604-f723-4920-b8f1-56d3040bb69c" name="Changes" comment="FindMaxSubsequenceSum commit">
-      <change afterPath="$PROJECT_DIR$/src/dp/combinations/DiceCombinations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/subsequence/LongestIncreasingSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/subsequence/LongestIncreasingSubsequence.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,32 +24,39 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "souravmishra23"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;souravmishra23&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:souravmishra23/New-Series.git",
-    "accountId": "3e21179a-a2a5-49b0-935e-2d377a1b565f"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:souravmishra23/New-Series.git&quot;,
+    &quot;accountId&quot;: &quot;3e21179a-a2a5-49b0-935e-2d377a1b565f&quot;
   }
-}]]></component>
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2xXIh6FXGh2h0Thr68xb6tcjwUJ" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ClimbingStairs.executor": "Run",
     "Application.DiceCombinations.executor": "Run",
+    "Application.FrogJump.executor": "Run",
+    "Application.FrogJumpKSteps.executor": "Run",
+    "Application.HourseRobberCircularHouse.executor": "Run",
+    "Application.HouseRobber.executor": "Run",
+    "Application.LongestIncreasingSubsequence.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MaxNonAdjacentSum.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -57,22 +64,9 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DiceCombinations">
-    <configuration name="DiceCombinations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.combinations.DiceCombinations" />
-      <module name="New-Series" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dp.combinations.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindMaxSubsequenceSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.minmax.FindMaxSubsequenceSum" />
+  <component name="RunManager" selected="Application.LongestIncreasingSubsequence">
+    <configuration name="FrogJumpKSteps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.minmax.FrogJumpKSteps" />
       <module name="New-Series" />
       <extension name="coverage">
         <pattern>
@@ -84,8 +78,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMinPathInGrid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.minmax.FindMinPathInGrid" />
+    <configuration name="HourseRobberCircularHouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.minmax.HourseRobberCircularHouse" />
       <module name="New-Series" />
       <extension name="coverage">
         <pattern>
@@ -97,19 +91,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="HouseRobber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.minmax.HouseRobber" />
       <module name="New-Series" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dp.minmax.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestIncreasingSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.subsequence.LongestIncreasingSubsequence" />
+      <module name="New-Series" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dp.subsequence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxNonAdjacentSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.minmax.MaxNonAdjacentSum" />
+      <module name="New-Series" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dp.minmax.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DiceCombinations" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.FindMaxSubsequenceSum" />
-        <item itemvalue="Application.FindMinPathInGrid" />
+        <item itemvalue="Application.LongestIncreasingSubsequence" />
+        <item itemvalue="Application.HourseRobberCircularHouse" />
+        <item itemvalue="Application.HouseRobber" />
+        <item itemvalue="Application.MaxNonAdjacentSum" />
+        <item itemvalue="Application.FrogJumpKSteps" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748599637233</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="FindMaxSubsequenceSum commit">
+      <option name="closed" value="true" />
+      <created>1750599927848</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1750599927848</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
