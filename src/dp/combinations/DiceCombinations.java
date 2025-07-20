@@ -17,6 +17,7 @@ public class DiceCombinations {
         Integer [] dp = new Integer[n];
        // out.println(combinationsMemo(n, 0, dp));
         out.println(combinationsBottomUp(n));
+        out.println(tabulation(n));
         out.flush();
         out.close();
 //        int result = combinations(3, 0);
@@ -57,6 +58,19 @@ public class DiceCombinations {
             totalWays = (totalWays + combinationsMemo(n, sum + i, dp)) % MOD;
         }
         return dp[sum] = totalWays;
+    }
+
+    public static int tabulation(int n) {
+        int [] dp = new int[n + 1];
+        dp[n] = 1;
+        for (int i = n - 1; i >= 0; i--) {
+            for (int dice = 1; dice <= 6; dice++) {
+                if (dice <= n - i) {
+                    dp[i] = (dp[i] + dp[i + dice]) % MOD;
+                }
+            }
+        }
+        return dp[0];
     }
 
     public static int combinationsBottomUp(int n) {
