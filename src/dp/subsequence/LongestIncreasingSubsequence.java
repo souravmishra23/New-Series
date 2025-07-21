@@ -1,6 +1,9 @@
 package dp.subsequence;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 
 public class LongestIncreasingSubsequence {
     public static void main(String[] args) {
@@ -79,5 +82,31 @@ public class LongestIncreasingSubsequence {
         for (int val: dp) max = Math.max(val, max);
 
         return max;
+    }
+
+    // dp with binary search ..
+    public static int binarySearch(int [] a) {
+        int n = a.length;
+
+        List<Integer> ans = new ArrayList<>();
+        ans.add(a[0]);
+
+        for (int i = 1; i < n; i++) {
+            if (a[i] > ans.get(ans.size() - 1)) {
+                ans.add(a[i]);
+            } else {
+                // Find index of just-bigger element using binary search
+                int idx = Collections.binarySearch(ans, a[i]);
+
+                // If not found, binarySearch returns -(insertionPoint) - 1
+                if (idx < 0) {
+                    idx = -(idx + 1);
+                }
+
+                ans.set(idx, a[i]); // Replace with smaller element
+            }
+        }
+
+        return ans.size();
     }
 }
