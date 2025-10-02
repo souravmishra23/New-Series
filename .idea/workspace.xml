@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe14c604-f723-4920-b8f1-56d3040bb69c" name="Changes" comment="FindMaxSubsequenceSum commit">
+    <list default="true" id="fe14c604-f723-4920-b8f1-56d3040bb69c" name="Changes" comment="LIS">
+      <change afterPath="$PROJECT_DIR$/src/dp/knapsack/Knapsack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/minmax/CutRodIntoSegments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/picknotpick/CombinationSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/picknotpick/MinSquares.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dp/subsequence/LongestIncreasingSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/subsequence/LongestIncreasingSubsequence.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,14 +52,18 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ClimbingStairs.executor": "Run",
+    "Application.CombinationSum.executor": "Run",
+    "Application.CutRodIntoSegments.executor": "Run",
     "Application.DiceCombinations.executor": "Run",
     "Application.FrogJump.executor": "Run",
     "Application.FrogJumpKSteps.executor": "Run",
     "Application.HourseRobberCircularHouse.executor": "Run",
     "Application.HouseRobber.executor": "Run",
+    "Application.Knapsack.executor": "Run",
     "Application.LongestIncreasingSubsequence.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MaxNonAdjacentSum.executor": "Run",
+    "Application.MinSquares.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -64,9 +71,22 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LongestIncreasingSubsequence">
-    <configuration name="FrogJumpKSteps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.minmax.FrogJumpKSteps" />
+  <component name="RunManager" selected="Application.MinSquares">
+    <configuration name="CombinationSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.picknotpick.CombinationSum" />
+      <module name="New-Series" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dp.picknotpick.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CutRodIntoSegments" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.minmax.CutRodIntoSegments" />
       <module name="New-Series" />
       <extension name="coverage">
         <pattern>
@@ -78,25 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HourseRobberCircularHouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.minmax.HourseRobberCircularHouse" />
+    <configuration name="Knapsack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.knapsack.Knapsack" />
       <module name="New-Series" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dp.minmax.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HouseRobber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.minmax.HouseRobber" />
-      <module name="New-Series" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dp.minmax.*" />
+          <option name="PATTERN" value="dp.knapsack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxNonAdjacentSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.minmax.MaxNonAdjacentSum" />
+    <configuration name="MinSquares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.picknotpick.MinSquares" />
       <module name="New-Series" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dp.minmax.*" />
+          <option name="PATTERN" value="dp.picknotpick.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinSquares" />
+        <item itemvalue="Application.CombinationSum" />
+        <item itemvalue="Application.Knapsack" />
+        <item itemvalue="Application.CutRodIntoSegments" />
         <item itemvalue="Application.LongestIncreasingSubsequence" />
-        <item itemvalue="Application.HourseRobberCircularHouse" />
-        <item itemvalue="Application.HouseRobber" />
-        <item itemvalue="Application.MaxNonAdjacentSum" />
-        <item itemvalue="Application.FrogJumpKSteps" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +204,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750599927848</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="LIS">
+      <option name="closed" value="true" />
+      <created>1753115282253</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1753115282253</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,7 +230,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="dp min max commit" />
     <MESSAGE value="FindMaxSubsequenceSum commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="FindMaxSubsequenceSum commit" />
+    <MESSAGE value="LIS" />
+    <option name="LAST_COMMIT_MESSAGE" value="LIS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
