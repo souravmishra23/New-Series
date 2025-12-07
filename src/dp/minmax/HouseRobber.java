@@ -1,6 +1,5 @@
 package dp.minmax;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class HouseRobber {
