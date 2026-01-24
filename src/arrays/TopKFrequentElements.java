@@ -39,4 +39,34 @@ public class TopKFrequentElements {
 
         return ans;
     }
+
+
+
+    public static int[] topKFrequent1(int[] nums, int k) {
+        Map<Integer, Integer> map = new HashMap<>();
+
+        for (int n: nums) {
+            map.put(n, map.getOrDefault(n, 0) + 1);
+        }
+
+        List<Map.Entry<Integer, Integer>> entryList = new ArrayList<>(map.entrySet());
+
+        entryList.sort((a, b) -> (b.getValue()).compareTo(a.getValue()));
+
+        int count = 0;
+        int i = 0;
+        int [] ans = new int[k];
+        for (Map.Entry<Integer, Integer> entry: entryList) {
+            if (count < k || (entry.getValue().equals(entryList.get(count - 1).getValue()))) {
+                ans[i++] = entry.getKey();
+                count++;
+            } else {
+                break;
+            }
+        }
+        System.out.println(Arrays.toString(ans));
+        return nums;
+    }
+
+
 }

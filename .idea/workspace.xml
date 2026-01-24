@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe14c604-f723-4920-b8f1-56d3040bb69c" name="Changes" comment="stack">
-      <change afterPath="$PROJECT_DIR$/src/stack/ScoreOfParantheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack/SimplifyPath.java" afterDir="false" />
+    <list default="true" id="fe14c604-f723-4920-b8f1-56d3040bb69c" name="Changes" comment="stack questions">
+      <change afterPath="$PROJECT_DIR$/src/stack/BasicCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/EvaluateReversePolishNotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/NextGreaterElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/TopKFrequentElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/TopKFrequentElements.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,10 +51,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BasicCalculator.executor": "Run",
     "Application.ClimbingStairs.executor": "Run",
     "Application.CombinationSum.executor": "Run",
     "Application.CutRodIntoSegments.executor": "Run",
     "Application.DiceCombinations.executor": "Run",
+    "Application.EvaluateReversePolishNotation.executor": "Run",
     "Application.FrogJump.executor": "Run",
     "Application.FrogJumpKSteps.executor": "Run",
     "Application.HourseRobberCircularHouse.executor": "Run",
@@ -61,21 +66,22 @@
     "Application.Main.executor": "Run",
     "Application.MaxNonAdjacentSum.executor": "Run",
     "Application.MinSquares.executor": "Run",
+    "Application.NextGreaterElement.executor": "Run",
     "Application.SimplifyPath.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SimplifyPath">
-    <configuration name="CombinationSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.picknotpick.CombinationSum" />
+  <component name="RunManager" selected="Application.BasicCalculator">
+    <configuration name="BasicCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.BasicCalculator" />
       <module name="New-Series" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dp.picknotpick.*" />
+          <option name="PATTERN" value="stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,25 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CutRodIntoSegments" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.minmax.CutRodIntoSegments" />
+    <configuration name="EvaluateReversePolishNotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.EvaluateReversePolishNotation" />
       <module name="New-Series" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dp.minmax.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Knapsack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.knapsack.Knapsack" />
-      <module name="New-Series" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dp.knapsack.*" />
+          <option name="PATTERN" value="stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,6 +108,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="dp.picknotpick.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NextGreaterElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.NextGreaterElement" />
+      <module name="New-Series" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BasicCalculator" />
+        <item itemvalue="Application.EvaluateReversePolishNotation" />
+        <item itemvalue="Application.NextGreaterElement" />
         <item itemvalue="Application.SimplifyPath" />
         <item itemvalue="Application.MinSquares" />
-        <item itemvalue="Application.CombinationSum" />
-        <item itemvalue="Application.Knapsack" />
-        <item itemvalue="Application.CutRodIntoSegments" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +224,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768144140525</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="stack questions">
+      <option name="closed" value="true" />
+      <created>1768149943357</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1768149943357</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,7 +252,8 @@
     <MESSAGE value="FindMaxSubsequenceSum commit" />
     <MESSAGE value="LIS" />
     <MESSAGE value="stack" />
-    <option name="LAST_COMMIT_MESSAGE" value="stack" />
+    <MESSAGE value="stack questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="stack questions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
