@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe14c604-f723-4920-b8f1-56d3040bb69c" name="Changes" comment="stack questions">
-      <change afterPath="$PROJECT_DIR$/src/stack/BasicCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack/EvaluateReversePolishNotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack/NextGreaterElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrays/TopKFrequentElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/TopKFrequentElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/LargestRectangleinHistogram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +58,7 @@
     "Application.HourseRobberCircularHouse.executor": "Run",
     "Application.HouseRobber.executor": "Run",
     "Application.Knapsack.executor": "Run",
+    "Application.LargestRectangleinHistogram.executor": "Run",
     "Application.LongestIncreasingSubsequence.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MaxNonAdjacentSum.executor": "Run",
@@ -75,7 +72,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BasicCalculator">
+  <component name="RunManager" selected="Application.LargestRectangleinHistogram">
     <configuration name="BasicCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stack.BasicCalculator" />
       <module name="New-Series" />
@@ -102,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinSquares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.picknotpick.MinSquares" />
+    <configuration name="LargestRectangleinHistogram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.LargestRectangleinHistogram" />
       <module name="New-Series" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dp.picknotpick.*" />
+          <option name="PATTERN" value="stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LargestRectangleinHistogram" />
         <item itemvalue="Application.BasicCalculator" />
         <item itemvalue="Application.EvaluateReversePolishNotation" />
         <item itemvalue="Application.NextGreaterElement" />
         <item itemvalue="Application.SimplifyPath" />
-        <item itemvalue="Application.MinSquares" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +229,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768149943357</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="stack questions">
+      <option name="closed" value="true" />
+      <created>1769250584222</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1769250584222</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
