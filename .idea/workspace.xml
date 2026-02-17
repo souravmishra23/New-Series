@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe14c604-f723-4920-b8f1-56d3040bb69c" name="Changes" comment="recursion questions">
-      <change afterPath="$PROJECT_DIR$/src/arrays/RotateArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion/CombinationSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion/CombinationSum2.java" afterDir="false" />
+    <list default="true" id="fe14c604-f723-4920-b8f1-56d3040bb69c" name="Changes" comment="more questions">
+      <change afterPath="$PROJECT_DIR$/src/arrays/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/cyclic/FindtheDuplicateNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/cyclic/FirstMissingPositive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedlist/ReverseNodesinkGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/trees/BinaryTreeRightSideView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +58,8 @@
     "Application.CutRodIntoSegments.executor": "Run",
     "Application.DiceCombinations.executor": "Run",
     "Application.EvaluateReversePolishNotation.executor": "Run",
+    "Application.FindtheDuplicateNumber.executor": "Debug",
+    "Application.FirstMissingPositive.executor": "Run",
     "Application.FrogJump.executor": "Run",
     "Application.FrogJumpKSteps.executor": "Run",
     "Application.HourseRobberCircularHouse.executor": "Run",
@@ -66,6 +70,7 @@
     "Application.Main.executor": "Run",
     "Application.MaxNonAdjacentSum.executor": "Run",
     "Application.Maximumofminimumforeverywindowsize.executor": "Run",
+    "Application.MergeSort.executor": "Run",
     "Application.MinSquares.executor": "Run",
     "Application.NextGreaterElement.executor": "Run",
     "Application.RotateArray.executor": "Run",
@@ -79,7 +84,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RotateArray">
+  <component name="RunManager" selected="Application.MergeSort">
     <configuration name="CombinationSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="recursion.CombinationSum" />
       <module name="New-Series" />
@@ -93,12 +98,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Maximumofminimumforeverywindowsize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.Maximumofminimumforeverywindowsize" />
+    <configuration name="FindtheDuplicateNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.cyclic.FindtheDuplicateNumber" />
       <module name="New-Series" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stack.*" />
+          <option name="PATTERN" value="arrays.cyclic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstMissingPositive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.cyclic.FirstMissingPositive" />
+      <module name="New-Series" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.cyclic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.MergeSort" />
+      <module name="New-Series" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,39 +150,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubSetSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.SubSetSum" />
-      <module name="New-Series" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SubsetsWithDup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.SubsetsWithDup" />
-      <module name="New-Series" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.FirstMissingPositive" />
+        <item itemvalue="Application.FindtheDuplicateNumber" />
         <item itemvalue="Application.RotateArray" />
         <item itemvalue="Application.CombinationSum" />
-        <item itemvalue="Application.SubsetsWithDup" />
-        <item itemvalue="Application.SubSetSum" />
-        <item itemvalue="Application.Maximumofminimumforeverywindowsize" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +265,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769528892830</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="more questions">
+      <option name="closed" value="true" />
+      <created>1771154703254</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1771154703254</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -283,7 +296,8 @@
     <MESSAGE value="stack questions" />
     <MESSAGE value="stack questions more" />
     <MESSAGE value="recursion questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="recursion questions" />
+    <MESSAGE value="more questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="more questions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
