@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe14c604-f723-4920-b8f1-56d3040bb69c" name="Changes" comment="linkedlist tree questions">
-      <change beforePath="$PROJECT_DIR$/src/arrays/RotateArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/RotateArray.java" afterDir="false" />
+    <list default="true" id="fe14c604-f723-4920-b8f1-56d3040bb69c" name="Changes" comment="reverse array questions">
+      <change afterPath="$PROJECT_DIR$/src/arrays/MinPlatforms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/TrappingRainWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/subarrays/SubarrayProductLessThanK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/arrays/JumpGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/picknotpick/LongestIncreasingSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +64,7 @@
     "Application.FrogJumpKSteps.executor": "Run",
     "Application.HourseRobberCircularHouse.executor": "Run",
     "Application.HouseRobber.executor": "Run",
+    "Application.JumpGame.executor": "Run",
     "Application.Knapsack.executor": "Run",
     "Application.LargestRectangleinHistogram.executor": "Run",
     "Application.LongestIncreasingSubsequence.executor": "Run",
@@ -71,7 +77,9 @@
     "Application.RotateArray.executor": "Run",
     "Application.SimplifyPath.executor": "Run",
     "Application.SubSetSum.executor": "Run",
+    "Application.SubarrayProductLessThanK.executor": "Run",
     "Application.SubsetsWithDup.executor": "Run",
+    "Application.TrappingRainWater.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -79,13 +87,13 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MergeSort">
-    <configuration name="CombinationSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.CombinationSum" />
+  <component name="RunManager" selected="Application.MinPlatforms">
+    <configuration name="JumpGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.arrays.JumpGame" />
       <module name="New-Series" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recursion.*" />
+          <option name="PATTERN" value="dp.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindtheDuplicateNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.cyclic.FindtheDuplicateNumber" />
+    <configuration name="LongestIncreasingSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.picknotpick.LongestIncreasingSubsequence" />
       <module name="New-Series" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.cyclic.*" />
+          <option name="PATTERN" value="dp.picknotpick.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,21 +114,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstMissingPositive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.cyclic.FirstMissingPositive" />
-      <module name="New-Series" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrays.cyclic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.MergeSort" />
+    <configuration name="MinPlatforms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.MinPlatforms" />
       <module name="New-Series" />
       <extension name="coverage">
         <pattern>
@@ -132,8 +127,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.RotateArray" />
+    <configuration name="SubarrayProductLessThanK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.subarrays.SubarrayProductLessThanK" />
+      <module name="New-Series" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.subarrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrappingRainWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.TrappingRainWater" />
       <module name="New-Series" />
       <extension name="coverage">
         <pattern>
@@ -147,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.FirstMissingPositive" />
-        <item itemvalue="Application.FindtheDuplicateNumber" />
-        <item itemvalue="Application.RotateArray" />
-        <item itemvalue="Application.CombinationSum" />
+        <item itemvalue="Application.MinPlatforms" />
+        <item itemvalue="Application.TrappingRainWater" />
+        <item itemvalue="Application.JumpGame" />
+        <item itemvalue="Application.LongestIncreasingSubsequence" />
+        <item itemvalue="Application.SubarrayProductLessThanK" />
       </list>
     </recent_temporary>
   </component>
@@ -276,7 +284,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771344302604</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="reverse array questions">
+      <option name="closed" value="true" />
+      <created>1771344618487</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1771344618487</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -301,7 +317,8 @@
     <MESSAGE value="recursion questions" />
     <MESSAGE value="more questions" />
     <MESSAGE value="linkedlist tree questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="linkedlist tree questions" />
+    <MESSAGE value="reverse array questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="reverse array questions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
