@@ -27,4 +27,38 @@ public class JumpGame {
 
         return dp[0];
     }
+// O(n) solution
+    public int jumpOptimal(int[] nums) {
+
+        int n = nums.length;
+
+        if (n <= 1) {
+            return 0;
+        }
+
+        if (nums[0] == 0) {
+            return -1;
+        }
+
+        int currentEnd = 0;
+        int farthest = 0;
+        int jumps = 0;
+
+        for (int i = 0; i < n; i++) {
+            farthest = Math.max(farthest, i + nums[i]);
+
+            if (currentEnd == i) {
+                jumps++;
+                currentEnd = farthest;
+                if (currentEnd >= n - 1) {
+                    return jumps;
+                }
+            }
+            if (i >= farthest)
+                return -1;
+        }
+
+        return -1;
+
+    }
 }
