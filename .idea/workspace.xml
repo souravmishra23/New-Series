@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe14c604-f723-4920-b8f1-56d3040bb69c" name="Changes" comment="dp array questions">
-      <change afterPath="$PROJECT_DIR$/src/arrays/Points.java" afterDir="false" />
+    <list default="true" id="fe14c604-f723-4920-b8f1-56d3040bb69c" name="Changes" comment="points questions">
+      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heap/MaxHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedlist/LRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strings/Base62.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -48,6 +52,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Base62.executor": "Run",
     "Application.BasicCalculator.executor": "Run",
     "Application.ClimbingStairs.executor": "Run",
     "Application.CombinationSum.executor": "Run",
@@ -65,6 +70,7 @@
     "Application.LargestRectangleinHistogram.executor": "Run",
     "Application.LongestIncreasingSubsequence.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MaxHeap.executor": "Run",
     "Application.MaxNonAdjacentSum.executor": "Run",
     "Application.Maximumofminimumforeverywindowsize.executor": "Run",
     "Application.MergeSort.executor": "Run",
@@ -77,6 +83,7 @@
     "Application.SubSetSum.executor": "Run",
     "Application.SubarrayProductLessThanK.executor": "Run",
     "Application.SubsetsWithDup.executor": "Run",
+    "Application.Test.executor": "Run",
     "Application.TrappingRainWater.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -86,12 +93,12 @@
   }
 }]]></component>
   <component name="RunManager" selected="Application.Points">
-    <configuration name="JumpGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.arrays.JumpGame" />
+    <configuration name="Base62" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.Base62" />
       <module name="New-Series" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dp.arrays.*" />
+          <option name="PATTERN" value="strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestIncreasingSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.picknotpick.LongestIncreasingSubsequence" />
+    <configuration name="MaxHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="heap.MaxHeap" />
       <module name="New-Series" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dp.picknotpick.*" />
+          <option name="PATTERN" value="heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,15 +145,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrappingRainWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.TrappingRainWater" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="New-Series" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -154,10 +155,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Points" />
+        <item itemvalue="Application.Base62" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.MaxHeap" />
         <item itemvalue="Application.MinPlatforms" />
-        <item itemvalue="Application.TrappingRainWater" />
-        <item itemvalue="Application.JumpGame" />
-        <item itemvalue="Application.LongestIncreasingSubsequence" />
       </list>
     </recent_temporary>
   </component>
@@ -298,7 +299,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771569379441</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="points questions">
+      <option name="closed" value="true" />
+      <created>1772037950684</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1772037950684</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -325,7 +334,8 @@
     <MESSAGE value="linkedlist tree questions" />
     <MESSAGE value="reverse array questions" />
     <MESSAGE value="dp array questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="dp array questions" />
+    <MESSAGE value="points questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="points questions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
