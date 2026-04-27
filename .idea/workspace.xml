@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe14c604-f723-4920-b8f1-56d3040bb69c" name="Changes" comment="new questions">
-      <change afterPath="$PROJECT_DIR$/src/arrays/KadanesAlgo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrays/MinimizetheHeights.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrays/MoveNegative.java" afterDir="false" />
+    <list default="true" id="fe14c604-f723-4920-b8f1-56d3040bb69c" name="Changes" comment="new questions1">
+      <change afterPath="$PROJECT_DIR$/src/arrays/CountInversions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/NextPermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/subsequence/NumberofMatchingSubsequences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strings/FindMissingNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/MergeIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/MergeIntervals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/binarysearch/SearchinRotatedSortedArrayII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binarysearch/SearchinRotatedSortedArrayII.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,58 +52,62 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Base62.executor": "Run",
-    "Application.BasicCalculator.executor": "Run",
-    "Application.ClimbingStairs.executor": "Run",
-    "Application.CombinationSum.executor": "Run",
-    "Application.CutRodIntoSegments.executor": "Run",
-    "Application.DiceCombinations.executor": "Run",
-    "Application.EvaluateReversePolishNotation.executor": "Run",
-    "Application.FindtheDuplicateNumber.executor": "Debug",
-    "Application.FirstMissingPositive.executor": "Run",
-    "Application.FrogJump.executor": "Run",
-    "Application.FrogJumpKSteps.executor": "Run",
-    "Application.HourseRobberCircularHouse.executor": "Run",
-    "Application.HouseRobber.executor": "Run",
-    "Application.JumpGame.executor": "Run",
-    "Application.KadanesAlgo.executor": "Run",
-    "Application.Knapsack.executor": "Run",
-    "Application.LargestRectangleinHistogram.executor": "Run",
-    "Application.LongestIncreasingSubsequence.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MaxHeap.executor": "Run",
-    "Application.MaxNonAdjacentSum.executor": "Run",
-    "Application.Maximumofminimumforeverywindowsize.executor": "Run",
-    "Application.MergeSort.executor": "Run",
-    "Application.MinPlatforms.executor": "Run",
-    "Application.MinSquares.executor": "Run",
-    "Application.MinimizetheHeights.executor": "Run",
-    "Application.MoveNegative.executor": "Run",
-    "Application.NextGreaterElement.executor": "Run",
-    "Application.Points.executor": "Run",
-    "Application.RotateArray.executor": "Run",
-    "Application.SimplifyPath.executor": "Run",
-    "Application.SubSetSum.executor": "Run",
-    "Application.SubarrayProductLessThanK.executor": "Run",
-    "Application.SubsetsWithDup.executor": "Run",
-    "Application.Test.executor": "Run",
-    "Application.TrappingRainWater.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Base62.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BasicCalculator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClimbingStairs.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CombinationSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountInversions.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CutRodIntoSegments.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DiceCombinations.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EvaluateReversePolishNotation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindMissingNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindtheDuplicateNumber.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.FirstMissingPositive.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FrogJump.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FrogJumpKSteps.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HourseRobberCircularHouse.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HouseRobber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JumpGame.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KadanesAlgo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Knapsack.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LargestRectangleinHistogram.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestIncreasingSubsequence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxHeap.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxNonAdjacentSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Maximumofminimumforeverywindowsize.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinPlatforms.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinSquares.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinimizetheHeights.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MoveNegative.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NextGreaterElement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NextPermutation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumberofMatchingSubsequences.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Points.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RotateArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SimplifyPath.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SubSetSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SubarrayProductLessThanK.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SubsetsWithDup.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TrappingRainWater.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.MinimizetheHeights">
-    <configuration name="Base62" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.Base62" />
+}</component>
+  <component name="RunManager" selected="Application.NumberofMatchingSubsequences">
+    <configuration name="CountInversions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.CountInversions" />
       <module name="New-Series" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="strings.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KadanesAlgo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.KadanesAlgo" />
+    <configuration name="FindMissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.FindMissingNumber" />
       <module name="New-Series" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,8 +141,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoveNegative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.MoveNegative" />
+    <configuration name="NextPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.NextPermutation" />
       <module name="New-Series" />
       <extension name="coverage">
         <pattern>
@@ -147,12 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Points" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.Points" />
+    <configuration name="NumberofMatchingSubsequences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.subsequence.NumberofMatchingSubsequences" />
       <module name="New-Series" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="dp.subsequence.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumberofMatchingSubsequences" />
+        <item itemvalue="Application.FindMissingNumber" />
+        <item itemvalue="Application.CountInversions" />
+        <item itemvalue="Application.NextPermutation" />
         <item itemvalue="Application.MinimizetheHeights" />
-        <item itemvalue="Application.KadanesAlgo" />
-        <item itemvalue="Application.MoveNegative" />
-        <item itemvalue="Application.Points" />
-        <item itemvalue="Application.Base62" />
       </list>
     </recent_temporary>
   </component>
@@ -323,7 +330,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773482168754</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="new questions1">
+      <option name="closed" value="true" />
+      <created>1773489921703</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1773489921703</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -352,7 +367,8 @@
     <MESSAGE value="dp array questions" />
     <MESSAGE value="points questions" />
     <MESSAGE value="new questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="new questions" />
+    <MESSAGE value="new questions1" />
+    <option name="LAST_COMMIT_MESSAGE" value="new questions1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
